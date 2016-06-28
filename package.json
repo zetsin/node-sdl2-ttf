@@ -1,0 +1,15 @@
+{
+  "name": "sdl2-ttf",
+  "version": "1.0.1",
+  "dependencies": {
+    "ffi": "^2.0.0",
+    "ref-array": "^1.1.2",
+    "ref-union": "^1.0.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
