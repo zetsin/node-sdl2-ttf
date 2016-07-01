@@ -1,6 +1,6 @@
 {
   "name": "sdl2-ttf",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "dependencies": {
     "ffi": "^2.0.0",
     "ref-array": "^1.1.2",
