@@ -115,7 +115,7 @@ var SDL_Surface = exports.SDL_Surface = Struct({
 })
 var SDL_Surface_ptr = exports.SDL_Surface_ptr = ref.refType(SDL_Surface)
 
-FFI.Library(process.platform == 'win32' ? 'SDL2_ttf' : 'libSDL2_ttf', {
+FFI.Library('libSDL2_ttf', {
 	TTF_Linked_Version: [ SDL_version_ptr, [ ] ],
 	TTF_ByteSwappedUNICODE: [ voit, [ int32, ] ],
 	TTF_Init: [ int32, [ ] ],
