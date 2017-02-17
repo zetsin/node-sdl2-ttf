@@ -16,8 +16,7 @@ var SDL_version = exports.SDL_version = Struct({
 })
 var SDL_version_ptr = exports.SDL_version_ptr = ref.refType(SDL_version)
 var int32 = exports.int32 = ref.types.int32
-var _TTF_Font = exports._TTF_Font = Struct({
-})
+var _TTF_Font = exports._TTF_Font = voit
 var TTF_Font = exports.TTF_Font = _TTF_Font
 var TTF_Font_ptr = exports.TTF_Font_ptr = ref.refType(TTF_Font)
 var string = exports.string = ref.types.CString
@@ -96,8 +95,7 @@ var SDL_Rect = exports.SDL_Rect = Struct({
 	w: int32,
 	h: int32,
 })
-var SDL_BlitMap = exports.SDL_BlitMap = Struct({
-})
+var SDL_BlitMap = exports.SDL_BlitMap = voit
 var SDL_BlitMap_ptr = exports.SDL_BlitMap_ptr = ref.refType(SDL_BlitMap)
 var SDL_Surface = exports.SDL_Surface = Struct({
 	flags: Uint32,
